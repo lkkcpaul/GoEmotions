@@ -12,9 +12,9 @@ def readme():
 
 
 setup(
-    name='titanic',
+    name='goemotions',
     version='0.1',
-    description='Analysis of the Titanic dataset',
+    description='Classify emotions of Reddit comments',
     long_description=readme(),
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -25,4 +25,7 @@ setup(
     author_email='lkkcpaul@gmail.com',  # Substitute your email
     #license='MIT',
     packages=['goemotions'],
+    install_requires=[
+        'pypandoc==1.5'
+    ],
 )
