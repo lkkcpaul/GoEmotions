@@ -23,7 +23,7 @@ setup(
     url='https://github.com/lkkcpaul/GoEmotions',
     author='Paokuan Chin',  # Substitute your name
     author_email='lkkcpaul@gmail.com',  # Substitute your email
-    #license='MIT',
+    # license='MIT',
     packages=['goemotions'],
     install_requires=[
         'pypandoc==1.5'
