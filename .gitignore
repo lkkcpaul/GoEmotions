@@ -1,3 +1,11 @@
+# Model checkpoints during training
+/exploration/finetune_LLM/roberta-base-goemotions/*
+<<<<<<< HEAD
+# Trained model weights used for inference
+=======
+>>>>>>> f26f21a (exclude model weights in git)
+GoEmotions/DiracGiraf/roberta-base-goemotions/pytorch_model.bin
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
