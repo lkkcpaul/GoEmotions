@@ -7,13 +7,19 @@ excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, rea
 # Inference
 The model is deployed on AWS, but due to budget concerns, I only run it occasionally.
 To do inference on your own machine, you can first acquire the docker image by
+
 ```docker pull lkkcpaul/goemotions```
+
 Run the container
+
 ```docker run -p 8080:8080 lkkcpaul/goemotions .```
+
 You should see an IP address. Say for example, mine was 127.0.0.1.
 Then go to your browser and go to the address `127.0.0.1:8080`, you should see the welcome text.
 Then to classify a piece of text, do a curl request 
+
 ```curl -X POST 127.0.0.1:8080/predict -d "Text I want to classify."```
+
 You should see the emotion labels returned to you.
 (If you are using Windows Powershell, to do the `curl` request, you might need to run `Remove-item alias:curl` first because Windows aliases Invoke-WebRequest as curl
 
