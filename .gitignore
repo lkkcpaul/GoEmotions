@@ -1,5 +1,7 @@
 # Model checkpoints during training
 /exploration/finetune_LLM/roberta-base-goemotions/*
+/exploration/finetune_LLM/robert-base-goemotions-ekman/*
+/exploration/testing_various_models/biLSTM.pk
 <<<<<<< HEAD
 # Trained model weights used for inference
 =======
